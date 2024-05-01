@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #323330;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.drop-targets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 20px 0;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: solid 3px #ccc;
+  margin: 10px;
+  border-radius: 5px;
+
+  /* align items in the box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item {
+  height: 75px;
+  width: 75px;
+  background-color: #7b1de7;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.drag-over {
+  border: dashed 3px rgb(231, 175, 34);
+}
+
