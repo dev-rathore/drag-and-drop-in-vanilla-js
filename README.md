@@ -1,1 +1,1 @@
-# drag-and-drop-in-vanilla-js
+# Drag and Drop in Vanilla JS
